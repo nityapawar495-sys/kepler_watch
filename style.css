@@ -1,0 +1,81 @@
+body {
+  background-color: #020b1f;
+  color: #5ff8f3;
+  /* font-family:F; */
+  text-align: center;
+}
+
+#missions{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.mission-card {
+  background: linear-gradient(145deg, #0a0a2a, #000000);
+  border: 1px solid #546c68;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.mission-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ffe1;
+} 
+h1, h2 {
+  margin: 10px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 200px;
+  margin-right: 20px;
+  filter: drop-shadow(0 0 8px #00ffe1);
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+  text-shadow: 0 0 10px #00ffe1;
+}
+
+/*control buttons*/
+.controls {
+  margin: 20px;
+}
+
+.controls input {
+  padding: 8px;
+  border: 1px solid #546c68;   /* same tone as your cards */
+  background: #0a0a2a;         /* matches card background */
+  color: #5ff8f3;              /* your text color */
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.controls input::placeholder {
+  color: #5ff8f3;
+  opacity: 0.6;
+}
+
+.controls button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #546c68;   /* consistent with your design */
+  background: #0a0a2a;
+  color: #5ff8f3;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  background: #5ff8f3;
+  color: #020b1f;
+}
