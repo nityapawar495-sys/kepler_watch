@@ -1,13 +1,14 @@
-# 🛰️ Kepler Watch – SpaceX Mission Control
+🛰️ Kepler Watch – SpaceX Mission Control#
+ 🌐 Live Demo
+[View Project](https://nityapawar495-sys.github.io/kepler_watch/)
 
-## 📌 Project Overview  
+📌 Project Overview  
 Kepler Watch is a real-time web dashboard designed to track and analyze SpaceX aerospace missions. The application allows users to explore launch histories, rocket specifications, and mission success metrics through a clean and interactive interface.
 
 This project simulates a mission control system where users can search, filter, and analyze mission data efficiently.
 
 ---
-
-## 🎯 Objective  
+🎯 Objective  
 The objective of this project is to build a responsive, data-driven web application that demonstrates:
 
 - JavaScript (ES6+) concepts  
@@ -18,14 +19,14 @@ The objective of this project is to build a responsive, data-driven web applicat
 
 ---
 
-## 🌐 API Used  
+🌐 API Used  
 - **SpaceX REST API v4** – Fetch mission data, launch details, and rocket information  
 
 ---
 
-## ✨ Features  
+✨ Features  
 
-### 🔍 Core Features  
+ 🔍 Core Features  
 - Search missions by name (e.g., Starlink, Crew-1)  
 - View mission details:
   - Mission patch  
@@ -33,7 +34,7 @@ The objective of this project is to build a responsive, data-driven web applicat
   - Launch summary  
 - Explore past and upcoming missions  
 
-### ⚙️ Functional Features  
+ ⚙️ Functional Features  
 - **Filtering (.filter())**
   - All Missions  
   - Successful Launches  
@@ -45,8 +46,7 @@ The objective of this project is to build a responsive, data-driven web applicat
 
 - **Detailed View (.find())**
   - “View More” for detailed mission insights  
-
-### 🎨 UI/UX Features  
+ 🎨 UI/UX Features  
 - Cyberpunk-themed UI (dark mode with neon accents)  
 - Responsive design (mobile, tablet, desktop)  
 - Interactive mission cards  
@@ -54,7 +54,7 @@ The objective of this project is to build a responsive, data-driven web applicat
 
 ---
 
-## 🛠️ Technologies Used  
+🛠️ Technologies Used  
 - HTML  
 - CSS (Flexbox & Grid)  
 - JavaScript (ES6+)  
@@ -63,7 +63,7 @@ The objective of this project is to build a responsive, data-driven web applicat
 
 ---
 
-## 📁 Project Structure  
+📁 Project Structure  
 kepler-watch/
 
 │── index.html
@@ -76,7 +76,7 @@ kepler-watch/
 
 ---
 
-## 🚀 Setup Instructions  
+ 🚀 Setup Instructions  
 1. Clone the repository:
    ```bash
    git clone https://github.com/nityapawar495-sys/kepler-watch.git
@@ -89,7 +89,7 @@ Run the project:
 
 ---
 
-## 📅 Milestone Plan  
+ 📅 Milestone Plan  
 
 ### ✅ Milestone 1 (Completed)  
 - Project setup  
@@ -119,13 +119,12 @@ Run the project:
 
 ---
 
-## 👩‍💻 Author  
+👩‍💻 Author  
 **Nitya Pawar**  
 
 GitHub: https://github.com/nityapawar495-sys  
 
 ---
-
-## 🤝 Contribution  
+ 🤝 Contribution  
 This project is developed as part of a college assignment.  
 Feedback and suggestions are welcome!
