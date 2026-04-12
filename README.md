@@ -96,15 +96,15 @@ Run the project:
 - README documentation  
 - Folder structure created  
 
-### 🔜 Milestone 2  
+### ✅ Milestone 2  
 - API integration using Fetch  
 - Display mission data  
 
-### 🔜 Milestone 3  
+### ✅ Milestone 3  
 - Implement search, filtering, sorting (HOFs)  
 - Improve UI interactivity  
 
-### 🔜 Milestone 4  
+### ✅ Milestone 4  
 - Code refactoring  
 - Deployment (Netlify / Vercel / GitHub Pages)  
 
