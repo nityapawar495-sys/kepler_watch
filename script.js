@@ -30,7 +30,7 @@ async function getMissions() {
 function displayData(data) {
     container.innerHTML = "";
 
-    data.slice(0, 20).forEach(item => {
+    data.slice(0, 100).forEach(item => {
         container.innerHTML += `
         <div class="mission-card">
             <h3>${item.name}</h3>
@@ -91,3 +91,7 @@ function sortByFlight() {
 
 // start
 getMissions();
+
+function toggleTheme() {
+    document.body.classList.toggle("light-mode");
+}
