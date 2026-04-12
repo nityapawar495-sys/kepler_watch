@@ -1,32 +1,14 @@
+/* ----------- BODY ----------- */
 body {
   background-color: #020b1f;
-  color: #5ff8f3;
-  /* font-family:F; */
+  color: #d1d1d1; /* soft silver text */
   text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-#missions{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 30px;
-}
 
-.mission-card {
-  background: linear-gradient(145deg, #0a0a2a, #000000);
-  border: 1px solid #546c68;
-  padding: 15px;
-  border-radius: 10px;
-  transition: 0.3s;
-}
-
-.mission-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px #00ffe1;
-} 
-h1, h2 {
-  margin: 10px 0;
-}
+/* ----------- HEADER ----------- */
 .header {
   display: flex;
   align-items: center;
@@ -35,47 +17,103 @@ h1, h2 {
 
 .logo {
   width: 200px;
-  margin-right: 20px;
-  filter: drop-shadow(0 0 8px #00ffe1);
+  margin-right: 15px;
+  filter: drop-shadow(0 0 8px #b388ff);
 }
 
+
+/* ----------- MAIN HEADING ----------- */
 h1 {
-  font-size: 28px;
-  margin: 0;
-  text-shadow: 0 0 10px #00ffe1;
+  font-size: 40px;
+  color: #f4f4f0; /* 💎 gold */
+  text-shadow: 0 0 10px #ffd700;
+  margin: 10px 0;
 }
 
-/*control buttons*/
+
+/* ----------- SUB HEADINGS ----------- */
+h2 {
+  margin: 10px 0;
+  color: #b388ff;
+}
+
+h3 {
+  color: #b388ff;
+}
+
+
+/* ----------- CONTROLS ----------- */
 .controls {
   margin: 20px;
 }
 
 .controls input {
   padding: 8px;
-  border: 1px solid #546c68;   /* same tone as your cards */
-  background: #0a0a2a;         /* matches card background */
-  color: #5ff8f3;              /* your text color */
-  margin-right: 10px;
+  border: 1px solid #546c68;
+  background: #0a0a2a;
+  color: #d1d1d1;
   border-radius: 5px;
+  margin-right: 10px;
 }
 
 .controls input::placeholder {
-  color: #5ff8f3;
-  opacity: 0.6;
+  color: #aaaaaa;
 }
 
 .controls button {
   padding: 8px 12px;
   margin: 5px;
-  border: 1px solid #546c68;   /* consistent with your design */
+  border: 1px solid #546c68;
   background: #0a0a2a;
-  color: #5ff8f3;
-  cursor: pointer;
+  color: #d1d1d1;
   border-radius: 5px;
+  cursor: pointer;
   transition: 0.3s;
 }
 
 .controls button:hover {
-  background: #5ff8f3;
-  color: #020b1f;
+  background: #b388ff;
+  color: black;
+}
+
+
+/* ----------- LOADER ----------- */
+#load {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+
+/* ----------- MISSIONS GRID ----------- */
+#missions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+
+/* ----------- CARDS ----------- */
+.mission-card {
+  background: linear-gradient(145deg, #0a0a2a, #000000);
+  border: 1px solid #546c68;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.mission-card h3 {
+  margin: 10px 0;
+}
+
+.mission-card p {
+  margin: 5px 0;
+  color: #cfcfcf;
+}
+
+
+/* ----------- HOVER EFFECT ----------- */
+.mission-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #b388ff;
 }
